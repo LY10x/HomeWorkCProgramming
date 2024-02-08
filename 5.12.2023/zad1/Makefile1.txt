@@ -1,0 +1,5 @@
+help.exe: help.c
+	gcc help.c -o help.exe
+
+clean:
+	del *.exe *.o

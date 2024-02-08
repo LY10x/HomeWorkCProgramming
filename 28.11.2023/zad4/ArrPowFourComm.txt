@@ -1,0 +1,2 @@
+gcc -o ArrPowFour ArrPowFour.c -lm
+./ArrPowFour.exe

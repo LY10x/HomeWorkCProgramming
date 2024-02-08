@@ -1,0 +1,5 @@
+mystrings.o: mystrings.c mystrings.h
+	gcc -c mystrings.c
+
+clean:
+	del *.exe *.o
