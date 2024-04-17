@@ -85,7 +85,7 @@ int main()
             CHECK(students)
 
             printf("\nEnter student name: ");
-            getchar(); // Consume newline character
+            getchar(); 
             students[studentsCount - 1] = readLine();
 
             grades = (float **)realloc(grades, studentsCount * sizeof(float *));
